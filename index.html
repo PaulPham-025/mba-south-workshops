@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MBA South Workshop Series</title>
+    <meta name="description" content="Internal MBA South workshop website with video introduction, recurring schedule, and Microsoft Forms registration.">
+    <link rel="preload" href="assets/lich-ws-dinh-ky.png.png" as="image">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="MBA South Workshop Series home">
+        <span class="brand-mark">MBA</span>
+        <span>MBA South</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#article">Giới thiệu</a>
+        <a href="#workshops">Lịch workshop</a>
+        <a href="#video">Video</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-image" src="assets/lich-ws-dinh-ky.png.png" alt="Lịch workshop định kỳ với hai chương trình dành cho Đại lý: Công cụ FSI và Quản lý tài chính.">
+        <div class="hero-overlay"></div>
+      </section>
+
+      <section id="article" class="section article-section" aria-labelledby="article-title">
+        <div class="article-content">
+          <p class="eyebrow">Dành cho Đại lý MBA South</p>
+          <h2 id="article-title">Workshop Công cụ FSI</h2>
+          <p>Khách hàng không thiếu nhu cầu. Điều khó hơn là mình bắt đầu cuộc trò chuyện với khách hàng như thế nào để tự nhiên, chuyên nghiệp và không tạo cảm giác đang bán ngay từ đầu.</p>
+          <p>Workshop Công cụ FSI được thiết kế để giúp đại lý có thêm một cách mở nguồn mới: bắt đầu từ việc giúp khách hàng nhìn lại bức tranh tài chính gia đình, từ đó tạo ra những cuộc trò chuyện và cuộc hẹn tư vấn có giá trị hơn.</p>
+          <p>Trong workshop, anh/chị sẽ được hướng dẫn cách giới thiệu FSI với khách hàng, cách mời khách làm khảo sát, cách follow-up và cách chuyển kết quả khảo sát thành một cuộc hẹn trao đổi sâu hơn.</p>
+          <p>Đây là buổi phù hợp với các anh/chị đang muốn:</p>
+          <ul class="article-checklist">
+            <li>Có thêm lý do tự nhiên để tiếp cận khách hàng</li>
+            <li>Mở lại cuộc trò chuyện với khách quen</li>
+            <li>Tạo cuộc hẹn tư vấn dựa trên nhu cầu thật</li>
+            <li>Nâng cấp cách tư vấn từ sản phẩm sang bức tranh tài chính gia đình</li>
+          </ul>
+          <p>Anh/chị đăng ký tham dự Workshop Công cụ FSI gần nhất theo lịch của MBA miền Nam:</p>
+          <div class="article-details" aria-label="Thông tin workshop Công cụ FSI">
+            <span>M-Class Sài Gòn</span>
+            <span>Thứ 6 hằng tuần | 14:00-16:00</span>
+          </div>
+          <p>Hãy tham dự để sau buổi workshop, mình không chỉ hiểu thêm một công cụ, mà có thể bắt đầu gửi những lời mời đầu tiên đến khách hàng một cách tự tin hơn.</p>
+        </div>
+      </section>
+
+      <section id="video" class="section intro-grid" aria-labelledby="video-title">
+        <div>
+          <p class="eyebrow">Video giới thiệu</p>
+          <h2 id="video-title">Workshop Quản lý Tài chính Gia đình</h2>
+          <p>Workshop Quản lý Tài chính Gia đình giúp đại lý có thêm một cách tiếp cận khách hàng tự nhiên hơn: bắt đầu từ những mối quan tâm thật của gia đình như chi tiêu, quỹ dự phòng, giáo dục con cái và tương lai tài chính. Video này giới thiệu cách workshop trở thành một phần trong mô hình tạo nguồn liên tục, giúp đại lý mở thêm những cuộc trò chuyện chất lượng và tạo nền tảng cho các cuộc hẹn tư vấn 1:1.</p>
+          <div class="video-registration" id="wednesdayVideoRegistration"></div>
+        </div>
+        <div class="video-frame">
+          <iframe
+            id="introVideo"
+            title="Workshop introduction video"
+            src="https://www.youtube-nocookie.com/embed/E8WViinDH2c?rel=0&modestbranding=1&playsinline=1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+
+      <section id="workshops" class="section" aria-labelledby="workshops-title">
+        <div class="section-heading">
+          <p class="eyebrow">Lịch định kỳ</p>
+          <h2 id="workshops-title">Đăng ký buổi workshop gần nhất</h2>
+        </div>
+        <div class="workshop-list" id="workshopList"></div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <span>MBA South Workshop Series</span>
+      <a href="mailto:workshops@example.com">workshops@example.com</a>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
