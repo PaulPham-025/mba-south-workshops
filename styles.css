@@ -571,3 +571,16 @@ textarea:focus {
     grid-template-columns: 1fr;
   }
 }
+
+
+@media (max-width: 620px) {
+  .hero {
+    min-height: auto;
+    aspect-ratio: 1672 / 941;
+    background: #051615;
+  }
+
+  .hero-image {
+    object-fit: contain;
+  }
+}
